@@ -5,7 +5,7 @@ Este é um projeto Android desenvolvido como parte da avaliação AV2 para a dis
 
 ## Estrutura do Projeto
 
-Através deste trabalho, foi desenvolvida uma aplicação mobile na IDE Android Studio que realiza operações de armazenamento, exclusão e alteração de dados (CRUD) para registros de cadastro de Pets (animais de estimação). Esses registros são mantidos em uma tabela chamada "pets.db" no banco de dados SQLite. A tabela possui sete colunas, cada uma representando um tipo de dado diferente:
+Através deste trabalho, foi desenvolvida uma aplicação mobile na IDE Android Studio que realiza operações de armazenamento, exclusão e alteração de dados (CRUD) para registros de cadastro de Pets (animais de estimação) utilizando a linguagem java. Esses registros são mantidos em uma tabela chamada "pets.db" no banco de dados SQLite. A tabela possui sete colunas, cada uma representando um tipo de dado diferente:
 
 - **id:** do tipo long
 - **nome:** do tipo String
@@ -14,6 +14,7 @@ Através deste trabalho, foi desenvolvida uma aplicação mobile na IDE Android 
 - **sexo:** do tipo char (com valores "M" ou "F")
 - **peso:** do tipo double
 - **altura:** do tipo float
+  
 O aplicativo conta com duas telas, com passagem de dados entre elas: uma tela principal que mostra ao usuário os registros presentes na tabela e uma segunda tela onde o usuário pode alterar, incluir ou excluir um registro da tabela. Caso seja optado por realizar uma alteração, a segunda tela será automaticamente preenchida com os dados do registro selecionado.
 
 ## Como executar
